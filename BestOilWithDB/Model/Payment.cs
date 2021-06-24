@@ -15,7 +15,7 @@ namespace BestOilWithDB.Model
         public DateTime PaymentDate { get; set; } = DateTime.Now;
         public override string ToString()
         {
-            return $"{Oil} {Liter} {TotalPayment} {PaymentDate}";
+            return $"{Oil} L : {Liter}L AZN : {TotalPayment}Azn Date : {PaymentDate}";
         }
     }
 }
